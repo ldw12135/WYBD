@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>新用户注册页面</title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div id="tou"><img src="img/register_logo.gif"/></div>
+		<div id="main">
+			<form id="form" action="">
+				<dl>
+					<dt>通行证用户名：</dt>
+					<dd><input type="text" id="userName" class="inputs"/>@163.com</dd>
+					<dd><div id="userNameId"></div></dd>
+				</dl>
+				<dl>
+					<dt>登录密码：</dt>
+					<dd><input type="text" id="password" class="inputs"/></dd>
+					<dd><div id="passwordId"></div></dd>
+				</dl>
+				<dl>
+					<dt>重置登录密码：</dt>
+					<dd><input type="text" id="rspassword" class="inputs"/></dd>
+					<dd><div id="rspasswordId"></div></dd>
+				</dl>
+				<dl>
+					<dt>性别：</dt>
+					<dd><input name="sex" type="radio" value="" checked="checked"/>男<input name="sex" type="radio" value="" />女</dd>
+				</dl>
+				<dl>
+					<dt>真实姓名：</dt>
+					<dd><input type="text" id="realName" class="inputs"/></dd>
+				</dl>
+				<dl>
+					<dt>昵称：</dt>
+					<dd><input type="text" id="nickName" class="inputs"/></dd>
+					<dd><div id="nickNameId"></div></dd>
+				</dl>
+				<dl>
+					<dt>关联手机号：</dt>
+					<dd><input type="text"  id="tel" class="inputs"/></dd>
+					<dd><div id="telId"></div></dd>
+				</dl>
+				<dl>
+					<dt>保密邮箱：</dt>
+					<dd><input type="email"  id="email"  class="inputs"/></dd>
+					<dd><div id="emailId"></div></dd>
+				</dl>
+				<dl>
+					<dt></dt>
+					<dd><img src="img/button.gif" name=""  > </dd>
+				</dl>
+			</form>
+			<script  src="js/jquery-1.12.4.js" ></script>
+			<script  src="js/index.js" ></script>
+			
+			
+		</div>
+	</body>
+</html>

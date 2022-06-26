@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#tou{
+	width: 500px;
+	margin: 0 auto;
+	padding: 10px;
+}
+#main{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	border: 1px red solid;
+	border-radius: 5px;
+}
+#form{
+	border: 1px gold solid;
+	width: 455px;
+	height: 455px;
+	margin: 0 auto;
+	margin-top:10px ;
+}
+.inputs{
+	border:solid 1px #a4c8e0;
+	width:150px;
+	height:15px;
+}
+dt,dd{
+	float: left;
+}
+dl dt{
+	display: inline-block;
+	font-size:12px;
+	color:#000;
+	margin-left: 5px;
+	line-height: 18px;
+}
+dl{
+	clear:both;
+	line-height: 22px;
+}
+dt{
+	width: 100px;
+	text-align: right;
+	font-size: 14px;
+	height:30px ;
+}
+
+dl>dd:first-of-type{width: 170px;}
+/*当鼠标放到文本框时，提示文本的样式*/
+.import_prompt{
+	border:solid 1px #ffcd00;
+	background-color:#ffffda;
+	padding-left:5px;
+	padding-right:5px;
+	line-height:20px;
+}
+/*当文本框内容不符合要求时，提示文本的样式*/
+.error_prompt{
+	border:solid 1px #ff3300;
+	background:#fff2e5 url(../img/li_err.gif)5px 2px  no-repeat;
+	padding:2px 5px 0px 25px;
+	line-height:20px;
+}
+/*当文本框内容输入正确时，提示文本的样式*/
+.ok_prompt{
+	border:solid 1px #01be00;
+	background:#e6fee4 url(../img/li_ok.gif) 5px 2px no-repeat;
+	padding:2px 5px 0px 25px;
+	line-height:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
